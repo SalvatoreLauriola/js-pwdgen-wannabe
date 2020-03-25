@@ -17,24 +17,31 @@ body {
     text-align: center;
     padding: 200px;
 }
+.titolo {
+    text-align: center;
+    margin-top: 100px;;
+}
 
-.titolo h1 {
+.description {
+    margin: auto auto 0;
+}
+
+.description h1 {
     background-color: white;
     color: black;
     text-align: center;
-    transition: transform 3s;
+    transition: transform 300ms;
 }
 
-.titolo h1:hover {
+.description h1:hover {
     transform: scale(3);
 }
 
 .bigbox {
     display: flex;
-    height: 100vh;
-    justify-content: space-around;
-    align-items: center;
-    flex-direction: column-reverse;
+    height: 50vh;
+    justify-content: center;
+    flex-direction: column;
 }
 
 
